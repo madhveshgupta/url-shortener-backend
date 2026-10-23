@@ -1,0 +1,29 @@
+{
+  "name": "url-shortener-backend",
+  "version": "1.0.0",
+  "description": "High-speed URL shortener and click telemetry REST API using Node.js, Express, and MongoDB",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "url-shortener",
+    "nodejs",
+    "express",
+    "mongodb",
+    "base62"
+  ],
+  "author": "Madhvesh Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
